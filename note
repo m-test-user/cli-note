@@ -1,0 +1,8 @@
+#!/bin/bash
+
+touch ~/NOTES
+
+datetext=$(date +"(%Y-%m-%d %H:%M)")
+
+echo "$datetext $1" >> ~/NOTES
+
